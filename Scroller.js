@@ -37,7 +37,6 @@ class Scroller {
     }
 
     scroll = (direction) => {
-        console.log(direction)
         if (direction === 1) {
             const isLastSection = this.currentSectionIndex === this.sections.length - 1;
             if (isLastSection) return;
